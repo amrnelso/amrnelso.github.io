@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html> 
+    
+  <head>
+    <!-- Meta Tag -->
+    <meta charset="utf-8">
+    <!-- CSS Stylesheet -->
+   <!-- <link rel="stylesheet" type="text/css" href="index.css">  -->
+    <!-- D3.js Source -->
+  <!--  <script type= "text/javascript" src="https://d3js.org/d3.v4.min.js"></script> -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+      <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+      <script src="https://d3js.org/topojson.v2.min.js"></script>
+  </head>
+    
+  <body>
+    <h1 style = "text-align:center; color:#000"><bold>Colorado Population Density</bold></h1>
+    <!-- Your D3.js code for making a Bar Graph -->
+    <div id="option">
+        <input name="updateButton"
+               type="button"
+               value="Change Color Scale"
+               onclick="updateMap()" />
+    </div>
+      <div id="option">
+        <input name="updateButton"
+               type="button"
+               value="Toggle Census Tract Boundary"
+               onclick="updateBoundary()" />
+    </div>
+    <script type="text/javascript" src="index.js"></script>     
+    <!-- Submission Info -->
+    <!--<h4>Created by Amanda Nelson</h4>-->
+
+      <h4><a href="https://amrnelso.github.io" target = "_blank">Github Link</a></h4>
+      <h4>Amanda Nelson</h4>
+      <h4>Instructor: Suresh Lodha</h4>
+      <h4>CSE 163: Data programming for Visualization</h4>
+      <h4>Spring 2020</h4>
+      
+    <!--<h4> Sources: </h4>-->
+    <!--<ul>
+      <li>D3 API Reference</li>
+      <li>Interactive Data Visualization for the Web</li>
+      <li><a href=https://bl.ocks.org/d3noob/7030f35b72de721622b8" target = "_blank"> Update d3.js data with button press</a></li>
+        <li><a href=https://bl.ocks.org/mbostock/5562380" target = "_blank">California Population Density</a></li>
+        <li><a href=https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c" target = "_blank"></a></li>
+
+    </ul>-->
+  </body>
+    
